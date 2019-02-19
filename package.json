@@ -1,0 +1,34 @@
+{
+  "name": "reactvideo",
+  "version": "0.0.1",
+  "description": "reactVideo is a web video player built from the ground up for an HTML5 world using React library.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "webpack",
+    "example":"http-server -p 8880"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reactVideo/reactVideo.git"
+  },
+  "keywords": [
+    "video"
+  ],
+  "author": "https://github.com/reactVideo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/reactVideo/reactVideo/issues"
+  },
+  "homepage": "https://github.com/reactVideo/reactVideo#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-latest": "^6.24.1",
+    "http-server": "^0.11.1",
+    "webpack": "^4.29.5",
+    "webpack-cli": "^3.2.3"
+  }
+}
