@@ -26,17 +26,7 @@ module.exports = {
 			loader:'babel-loader'
 		},{
             test: /\.css$/,
-            exclude:/(node_modules)/,
-            loader:[
-                {
-                    loader:'style-loader'
-                },{
-                    loader:'css-loader',
-                    options:{
-                        minimize:true
-                    }
-                }
-            ],
+            loader: ['style-loader', 'css-loader'],
         }]
 	},
     devServer: {
